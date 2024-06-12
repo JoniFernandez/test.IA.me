@@ -1,7 +1,9 @@
 import streamlit as st
 
-st.image('testiamelogo.jpg')
+# Mostrar una imagen
+st.image('testiamelogo.png')
 
+# Definir el color de fondo de la página
 page_bg_color = '''
 <style>
 [data-testid="stAppViewContainer"] {
@@ -12,6 +14,6 @@ page_bg_color = '''
 # Aplicar el CSS
 st.markdown(page_bg_color, unsafe_allow_html=True)
 
-
-st.title('Bienvenidos a Test.IA.me 🧠')
-st.write("Navegue a la ventana de registro para guardar sus datos")
+# Título y texto con color blanco
+st.markdown("<h1 style='color: white;'>Bienvenidos a Test.IA.me 🧠</h1>", unsafe_allow_html=True)
+st.markdown("<p style='color: white;'>Navegue a la ventana de registro {user login} para guardar sus datos!</p>", unsafe_allow_html=True)
