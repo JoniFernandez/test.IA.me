@@ -1,5 +1,6 @@
 streamlit==1.33.0
 psycopg2-binary==2.9.9
+psycopg2
 pandas==2.2.2
 matplotlib==3.7.1
 numpy==1.26.4
